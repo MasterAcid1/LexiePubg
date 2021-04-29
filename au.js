@@ -154,7 +154,7 @@ class Client {
     }
 
     loadGUI() {
-        $('.agario-promo').replaceWith(`
+        $('.modes-container').replaceWith(`
         <input onchange="localStorage.setItem('botNick', this.value);" id="botNick" maxlength="15" class="form-control" placeholder="Bot Name" value="KrunkerDarezYT"></input>
         <input onchange="localStorage.setItem('botAmount', this.value);" id="BotAmount" maxlength="3" class="form-control" placeholder="Bot Amount" value="30"></input>
 	<button id='button' class='btn btn-danger'>Custom plan: Lexie: 30 bots</button>
